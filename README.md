@@ -1,5 +1,5 @@
-# FLYR_DS_CaseStudy
-My study of predicting whether a flight is delayed by looking at the given flight dataset.
+# Classification for Fligth Data : Delayed or Not
+My study of classifiying whether a flight is delayed by looking at the given flight dataset.
 
 ## Given Dataset Features
 <b>FL_DATE</b>: Flight Date (yyyymmdd)<br>
