@@ -26,11 +26,8 @@ My study of classifiying whether a flight is delayed by looking at the given fli
 <b>LATE_AIRCRAFT_DELAY</b>: Late Aircraft Delay, in Minutes<br>
 
 ## Things to note:
-1. Data consists of 14 months, where 12 months (07.2018 - 06.2019) are for training/validation and
+* Data consists of 14 months, where 12 months (07.2018 - 06.2019) are for training/validation and
 2 months (07.2019 - 08.2019) for testing purposes.
-2. DepDelay (in minutes) is your target variable.
-3. From an operational perspective, flight is classified as delayed, when it is late 15 minutes or more.
-4. Scheduled departure time of the flight is the last available moment for doing prediction.
-5. For modeling/analysis use a subset of 8 carriers, which are the most common in the dataset.
-6. Feel free to use any publicly available information/dataset for feature engineering.
-7. Don’t forget about exploratory data analysis (at least 3 questions & answers).
+* DepDelay is your target variable. From an operational perspective, flight is classified as delayed, when it is late 15 minutes or more.
+* Scheduled departure time of the flight is the last available moment for doing prediction.
+* For modeling/analysis use a subset of 8 carriers, which are the most common in the dataset.
